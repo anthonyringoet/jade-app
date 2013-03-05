@@ -1,6 +1,7 @@
 # Jade app #
 
-Simple app to learn how node-webkit works that compiles Jade to html.
+Demo app to see how node-webkit works.
+It does some simple stuff with compiling jade.
 
 ## to do ##
 - show errors to user
@@ -13,3 +14,4 @@ in dev mode run:
     $ nw "/path/to/this/repo/app.nw"
 
 where nw is an alias to the dev native shell
+more info: https://github.com/rogerwang/node-webkit
