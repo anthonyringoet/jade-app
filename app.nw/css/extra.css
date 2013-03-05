@@ -1,0 +1,21 @@
+body{
+  padding:1em;
+}
+textarea{
+  width:100%;
+}
+label{
+  display:inline-block;
+}
+.g{
+  float:left;
+}
+.g-r{
+  float:right;
+}
+.g-48{
+  width:48%;
+}
+.g-c{
+  clear:both;
+}

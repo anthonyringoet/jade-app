@@ -1,10 +1,29 @@
 <html>
 <head>
 <title>Hello World!</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/extra.css">
 </head>
 <body>
-<h1>Hello World!</h1>
-We are using node.js <script>document.write(process.version)</script>
+  <h1>Jade app</h1>
+<p class="g-c">
+  We are using node.js <script>document.write(process.version)</script>
+</p>
+
+<div class="g g-48">
+  <h2>In</h2>
+  <textarea name="jade-in" id="" cols="30" rows="10" class="jade-in">
+  </textarea>
+</div>
+
+<div class="g g-r g-48">
+  <h2>Out</h2>
+  <textarea name="jade-out" id="" cols="30" rows="10" class="jade-out"></textarea>
+</div>
+
+<a href="#" id="compile" class="btn btn-primary controls-convert">Convert</a>
+<input type="checkbox" id="autocompile" class="controls-auto">
+<label for="autocompile">Auto-compile</label>
 
 <script src="script.js"></script>
 </body>
