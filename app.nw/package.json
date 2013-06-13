@@ -2,7 +2,7 @@
   "name": "jade-app",
   "main": "index.html",
    "window": {
-     "toolbar": false,
+     "toolbar": true,
      "resizable": true,
      "fullscreen": false,
      "width": 600,

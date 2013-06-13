@@ -6,11 +6,19 @@
 </head>
 <body>
   <h1>Jade app</h1>
-  <div class="jade-error"></div>
+  <div class="jade-error alert alert-error"></div>
 
 <div class="g g-48">
   <h2>In</h2>
-  <textarea autofocus name="jade-in" id="" cols="30" rows="10" class="jade-in"></textarea>
+  <textarea autofocus name="jade-in" id="" cols="30" rows="10" class="jade-in"
+  >doctype 5
+html(lang="en")
+  head
+    title jade node webkit
+  body
+    h1 This is Jade
+    #foo.bar
+  </textarea>
 </div>
 
 <div class="g g-r g-48">
@@ -19,8 +27,10 @@
 </div>
 
 <a href="#" id="compile" class="btn btn-primary controls-convert">Convert</a>
-<input type="checkbox" id="autocompile" class="controls-auto">
-<label for="autocompile">Auto-compile</label>
+<a href="#" id="clear" class="btn btn-danger controls-clear">Clear</a>
+<a href="#" id="reset" class="btn controls-clear">Reset</a>
+<label for="autocompile">
+<input type="checkbox" id="autocompile" class="controls-auto" checked="checked"> Auto-compile</label>
 
 <script src="script.js"></script>
 </body>

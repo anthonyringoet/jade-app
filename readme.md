@@ -3,11 +3,6 @@
 Demo app to see how node-webkit works.
 It does some simple stuff with compiling jade.
 
-## to do ##
-- show errors to user
-- add autocompile option
-- test drag and drop to compile a file
-
 ## development setup
 in dev mode run:
 
